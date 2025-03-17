@@ -73,4 +73,4 @@ MIT
 ## Acknowledgments
 
 - OpenAI for providing the API
-- The open-source community for the various packages used in this project
+- The open-source community for the various packages used in this project# ai-joke-generator
