@@ -2,6 +2,10 @@
 
 A web application that generates customized jokes using OpenAI's API. Users can tailor their joke experience by selecting various parameters such as topic, tone, joke type, and creativity level. The application also includes an AI evaluation feature that assesses generated jokes for humor, appropriateness, and other relevant criteria.
 
+## Demo
+
+[AI Joke Generator](https://ai-joke-generator-blockwidgets-projects.vercel.app)
+
 ## Features
 
 - **Joke Generation**: Create unique jokes using OpenAI's powerful language models

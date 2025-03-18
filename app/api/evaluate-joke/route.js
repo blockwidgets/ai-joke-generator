@@ -7,6 +7,7 @@ const openai = new OpenAI({
 })
 
 export async function POST(request) {
+    
   try {
     const { joke, parameters } = await request.json()
 
@@ -53,7 +54,7 @@ export async function POST(request) {
     let evaluation
     try {
       evaluation = JSON.parse(evaluationText)
-    } catch (error) {
+    } catch {
       // If parsing fails, create a default structure and include the raw feedback
       evaluation = {
         scores: {
